@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steen, Papier, Schaar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="currentUser"></h1>
+    <div class="container">
+        <div id="player-choices" class="choices">
+            <img src="rock.png" alt="Steen" onclick="playerChoice('steen')">
+            <img src="paper.png" alt="Papier" onclick="playerChoice('papier')">
+            <img src="scissors.png" alt="Schaar" onclick="playerChoice('schaar')">
+        </div>
+        <h1 id="result"></h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
